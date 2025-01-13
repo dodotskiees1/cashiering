@@ -1,0 +1,118 @@
+
+.navbar {
+  background-color: #3c7c59; 
+  border-bottom: 2px solid #444; 
+  padding: 0; 
+  flex-wrap: wrap; 
+}
+
+.navbar-brand {
+  white-space: nowrap;
+}
+
+.navbar .btn {
+  margin-left: auto; 
+}
+
+.sidebar {
+  width: 200px; 
+  height: calc(100% - 60px) 100vh; 
+  background-color: #3c7c59; 
+  color: white;
+  padding: 15px;
+  z-index: 1; 
+  position: relative; 
+  margin-top: -2px;
+  margin-left: auto; 
+
+}
+
+.main-content {
+  flex: 1; 
+  margin-left: 0;
+  transition: margin-left 0.3s;
+  padding: 5px;
+}
+
+.custom-table {
+  background-color: #135496; 
+  border-color: #3c7c59; 
+}
+
+.custom-table th {
+  background-color: #3c7c59; 
+  color: white;
+}
+
+.custom-table td {
+  color: #353535; 
+}
+
+.custom-table tr:hover {
+  background-color: #563af8;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    margin-left: 250px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; 
+  }
+
+  .main-content {
+    margin-left: 0; 
+  }
+}
+
+.customModal {
+    background-color:  #3c7c59;
+    border-radius: 8px; 
+    color: #333; 
+  }
+  
+  .modalheader {
+    background-color: #a3a39f; 
+    border-bottom: 1px solid #dee2e6; 
+  }
+  
+  .customModal .modal-body {
+    padding: 20px; 
+  }
+    .modalfooter {
+    background-color:#3c7c59;
+    border-top: 1px solid #dee2e6; 
+  }
+  .background {
+    background-color:#c0cacc;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; 
+}
+.cardBackground {
+    background-color: #b0e2ee; 
+    border-radius: 8px;
+}
+
+.fixedNavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030; 
+    background-color: #3c7c59; 
+    transition: top 0.3s; 
+  }
+  .mainContent {
+    padding-top: 10px; 
+  }
+    

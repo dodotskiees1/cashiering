@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table thead {
+    background-color: #f8f9fa;
+  }
+  
+  .table tbody tr:last-child {
+    font-weight: bold;
+  }
+  
+  .table tbody tr td {
+    vertical-align: middle;
+  }
+  
+  .table tbody tr td:last-child {
+    text-align: right;
+  }
+  
+  .mt-3 {
+    margin-top: 20px !important;
+  }
+  
+  h4 {
+    margin-top: 20px;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    background-color: #f8f9fa;
+  }
+  
+  .modal-title {
+    color: #495057;
+  }
+  
+  .modal-footer .btn-secondary {
+    width: auto;
+  }
+  
+  footer {
+    margin-top: 40px;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    color: #495057;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  

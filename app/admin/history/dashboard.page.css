@@ -1,0 +1,68 @@
+
+.navbar {
+  background-color: #3c7c59; 
+  border-bottom: 2px solid #444; 
+  padding: 0; 
+  flex-wrap: wrap; 
+}
+
+.navbar-brand {
+  white-space: nowrap;
+}
+
+.navbar .btn {
+  margin-left: auto; 
+}
+
+/* Dashboard.module.css */
+.sidebar {
+  background-color: #3c7c59;
+  width: 190px;
+  height: 100vh; /* Full height */
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed; /* Fix sidebar position */
+  z-index: 1; /* Ensure sidebar is above other content */
+}
+
+.main-content {
+  flex: 1;
+  transition: margin-left 0.3s;
+}
+
+
+.custom-table {
+  background-color: #135496; 
+  border-color: #3c7c59; 
+}
+
+.custom-table th {
+  background-color: #3c7c59; 
+  color: white;
+}
+
+.custom-table td {
+  color: #353535; 
+}
+
+.custom-table tr:hover {
+  background-color: #563af8;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    margin-left: 250px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; 
+  }
+
+  .main-content {
+    margin-left: 0; 
+  }
+}
