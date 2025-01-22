@@ -196,7 +196,7 @@ const Dashboard = () => {
                 <p>No users have ordered this product.</p>
               )}
               {selectedUser && !selectedProduct && (
-                <p>This user hasn't ordered anything.</p>
+                <p>This user hasnt ordered anything.</p>
               )}
               {selectedProduct && selectedUser && (
                 <p>No matching orders for this user and product combination.</p>
