@@ -234,7 +234,7 @@ const Dashboard = () => {
           {filteredOrders.length === 0 ? (
             <div className="mt-4 text-center">
               {selectedProduct && !selectedUser && <p>No users have ordered this product.</p>}
-              {selectedUser && !selectedProduct && <p>This user hasn't ordered anything.</p>}
+              {selectedUser && !selectedProduct && <p>This user hasnt ordered anything.</p>}
               {selectedProduct && selectedUser && <p>No matching orders for this user and product combination.</p>}
             </div>
           ) : (
